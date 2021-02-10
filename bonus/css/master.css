@@ -1,0 +1,75 @@
+/* Margini body */
+body {
+  margin: 5% 25%;
+}
+
+/* Altezza celle */
+[class^=col-] {
+  height: 40px;
+  width: 40px;
+}
+
+/* Colori */
+.dark-red {
+  background-color: #df1900;
+}
+
+.light-red {
+  background-color: #f53100;
+}
+
+.dark-yellow {
+  background-color: #ffcc23;
+}
+
+.light-yellow {
+  background-color: #fff323;
+}
+
+.dark-pink {
+  background-color: #feb485;
+}
+
+.light-pink {
+  background-color: #ffe29c;
+}
+
+.dark-green {
+  background-color: #0cb800;
+}
+
+.light-green {
+  background-color: #82e101;
+}
+
+.dark-blue {
+  background-color: #3b6afe;
+}
+
+.light-blue {
+  background-color: #63bcff;
+}
+
+.dark-orange {
+  background-color: #ff7c2a;
+}
+
+.light-orange {
+  background-color: #ffcc23;
+}
+
+.dark-brown {
+  background-color: #611f00;
+}
+
+.light-brown {
+  background-color: #aa4d00;
+}
+
+.purple {
+  background-color: #8620d9;
+}
+
+.black {
+  background-color: #000000;
+}

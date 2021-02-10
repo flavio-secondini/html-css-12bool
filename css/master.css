@@ -1,0 +1,51 @@
+/* margini generali */
+body {
+  margin: 0 20%;
+}
+
+p {
+  margin: 0;
+}
+
+/* caratteristiche colonne */
+[class^=col-] {
+  height: 100px;
+  line-height: 100px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  background-color: #ffc0cb;
+  text-align: center;
+}
+
+/* caratteristiche colonne "nested" */
+.nested {
+  line-height: normal;
+  background-color: #f07f80;
+  border-style: none;
+  margin: 4px;
+  position: relative;
+}
+
+.col-2.nested {
+  width: calc(100%/12*2 - 8px);
+  height: 90px;
+}
+
+.col-6.nested {
+  width: calc(50% - 8px);
+  height: 90px;
+}
+
+.col-8.nested {
+  width: calc(100%/12*8 - 8px);
+  height: 90px;
+}
+
+/* centramento testo nested */
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 12px;
+}
